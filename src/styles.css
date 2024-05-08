@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    font-family: Inter, sans-serif;
+
+    background-image: linear-gradient(to top, rgba(15, 188, 249, 0.2), 5%, #fff);
+}
+#mainBlock, #login, #password {
+    transition: 0.2s linear;
+}
+
+#mainBlock {
+    width: 20vw;
+    height: 70vh;
+
+    background-image: linear-gradient(rgba(15, 188, 249, 0.3), 60%, #fff);
+
+}
+
+.fieldSet {
+    border: 0;
+}
+
+h1 {
+    margin: 2em 0 2em;
+}
+
+.container {
+
+    border: 0.1mm solid black;
+    border-radius: 32px;
+
+    margin: 90px 0 90px;
+
+    text-align: center;
+}
+
+#login, #password {
+    border: 0;
+
+    height: 30px
+}
+
+input {
+    height: 40px;
+
+    border-radius: 61px;
+
+    text-align: center;
+}
+
+button {
+    width: 10em;
+    height: 40px;
+
+    border: 1px solid black;
+    border-radius: 61px;
+    color: black;
+    transition: .2s linear;
+    background: #4BCFFA;
+
+    margin: 5px 0 10px;
+}
